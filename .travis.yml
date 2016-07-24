@@ -28,6 +28,7 @@ matrix:
               - cabal install alex happy
               - PATH="$HOME/.cabal/bin:$PATH"
               - export PATH
+              - xcrun nm --version
 
 install:
     - env
